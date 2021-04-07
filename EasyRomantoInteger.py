@@ -7,6 +7,7 @@ class Solution:
 
 
         for i in range(len(array)-1):
+            """Upto L"""
             # Upper Checks
             if array[i] == 'I' and array[i+1] == 'V':
                 result = result + 4
