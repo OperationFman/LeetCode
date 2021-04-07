@@ -7,7 +7,7 @@ class Solution:
 
 
         for i in range(len(array)-1):
-            # Uper Checks
+            # Upper Checks
             if array[i] == 'I' and array[i+1] == 'V':
                 result = result + 4
             elif array[i] == 'I' and array[i+1] == 'X':
