@@ -16,6 +16,6 @@ class Solution:
         return l1
 
 sol = Solution()
-#Won't actually run locally but 'l1' input looks like this:
+# Refactor!!
+# Won't actually run locally but 'l1' input looks like this:
 # ListNode{val: 1, next: ListNode{val: 2, next: ListNode{val: 4, next: None}}}
-# so, l1.val = 1, l1.next=(node where)val=2/next=(node... etc)
