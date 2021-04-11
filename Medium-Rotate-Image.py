@@ -1,20 +1,26 @@
-matrix = [[1,2], [3,4],[5,6]]
+class Solution:
+    def rotate(self, matrix):
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        newArray = []
+        for _ in matrix:
+            newArray.append([])
+        for i in range(len(matrix)):
+            for element in matrix[i]:
+                newArray[matrix[i].index(element)].insert(0, element) 
+        for x in range(len(matrix)):
+            matrix[x] = newArray[x]
 
-# matrix[0].insert(0, 9)
+# Above isn't perfect
+# Below is, Rafactor!!
 
-# print(matrix)
-# for i in range(len(matrix)):
-#     print(i)
-
-array = []
-for i in range(5):
-    array.append([])
-
-print(array)
-
-# newarray = []
-# for i in range(len(matrix))
-# newarray.append([])
-# for element in array[i]
-#    newarray[array.index(element)].insert(0, element)
-# matrix = newarray
+class Solution2:
+    def rotate(self, matrix):
+		#Transposing the given matrix
+        for i in range(len(matrix)):
+            for j in range(i,len(matrix)):
+                matrix[i][j],matrix[j][i] = matrix[j][i],matrix[i][j]
+		#Reverse the transposed matrix 
+        for i in range(len(matrix)):
+            matrix[i] = matrix[i][::-1]
