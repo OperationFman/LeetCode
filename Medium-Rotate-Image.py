@@ -13,8 +13,8 @@ for i in range(5):
 print(array)
 
 # newarray = []
-        # for i in range(len(matrix))
-        # newarray.append([])
-        # for element in array[i]
-        #    newarray[array.index(element)].insert(0, element)
-        # matrix = newarray
+# for i in range(len(matrix))
+# newarray.append([])
+# for element in array[i]
+#    newarray[array.index(element)].insert(0, element)
+# matrix = newarray
