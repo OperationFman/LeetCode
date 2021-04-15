@@ -11,6 +11,7 @@ def fibonacci(n):
     elif n > 2:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
+
 print(fibonacci(6))
 for i in range(1, 20):
     print(i, ":", fibonacci(i))
