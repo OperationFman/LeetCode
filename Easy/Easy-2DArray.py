@@ -10,5 +10,6 @@ def hourglassSum(arr):
 # To make an empty 2D array easily:
 rows = 8
 cols = 8
-array = [[0]*cols]*rows
+array = [[0 for _ in range(rows)] for __ in range(cols)]
+array[3][5] = 1 #manipulate specific value
 print(array)
