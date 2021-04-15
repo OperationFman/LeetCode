@@ -1,6 +1,6 @@
 def transpose(matrix):
-    cols = len(matrix)
-    rows = len(matrix[0])
+    rows = len(matrix)
+    cols = len(matrix[0])
     array = [[0 for _ in range(rows)] for __ in range(cols)]
     for i in range(rows):
         for j in range(cols):
