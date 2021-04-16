@@ -1,4 +1,4 @@
-from EasyRomantoInteger import Solution
+from RomantoInteger import Solution
 
 def test_I():
     sol = Solution()
