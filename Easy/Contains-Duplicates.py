@@ -9,5 +9,5 @@ class Solution:
 
     def containsDuplicate2(self, nums):
         if len(set(nums)) != len(nums):
-                    return True
-                return False
+            return True
+        return False
