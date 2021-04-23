@@ -10,3 +10,5 @@ class Solution:
                 for j in range(i + i, n, i):
                     res[j] = 0
         return sum(res)
+
+# Refactor!
