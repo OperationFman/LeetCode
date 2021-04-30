@@ -1,5 +1,5 @@
 Reverse String
-Maximum Depth of binary Tree
+Maximum Depth of Binary Tree
 Delete Node in Linked List
 Single Number
 Reverse Linked List
@@ -20,7 +20,6 @@ Reverse Integer
 Binary Tree Traversal
 Rotate Image
 Game of Life
-
 Making Anagrams
 Alternating Characters
 Hash Tables: Ransom Note
