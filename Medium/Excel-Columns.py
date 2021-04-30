@@ -11,3 +11,5 @@ class Solution:
                 power = power - 1
             result += digits[columnTitle[-1]]
         return result
+
+# Refactor!
