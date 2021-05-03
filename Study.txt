@@ -1,5 +1,5 @@
 Reverse String - 100%
-Maximum Depth of Binary Tree - Stuck
+Maximum Depth of Binary Tree - 50%
 Delete Node in Linked List
 Single Number
 Reverse Linked List
@@ -35,3 +35,7 @@ Max Array Sum
 
 1 > 22 = LeetCode
 23 > 35 = Hackerrank
+% == levekl of understanding.
+    - 100% No problem at all
+    - 50% understood but needed reference
+    - 0% No idea why or how it works
