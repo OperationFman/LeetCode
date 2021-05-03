@@ -5,4 +5,4 @@ class Solution:
         s.reverse() # ["o","l","l","e","h"]
 
 # Reverse method does what you'd expect
-# This questions doesn't want a return, only an edit in place
+# This question doesn't want a return, only an edit in place
