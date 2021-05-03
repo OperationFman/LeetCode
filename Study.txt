@@ -33,6 +33,8 @@ Lucky Balance
 Minimum Absolute Difference
 Max Array Sum
 
+Find one for doubly linked lists
+
 1 > 22 = LeetCode
 23 > 35 = Hackerrank
 % == levekl of understanding.
