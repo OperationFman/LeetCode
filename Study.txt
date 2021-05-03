@@ -1,5 +1,5 @@
-Reverse String - 1 Attempt
-Maximum Depth of Binary Tree
+Reverse String - 100%
+Maximum Depth of Binary Tree - Stuck
 Delete Node in Linked List
 Single Number
 Reverse Linked List
