@@ -10,7 +10,7 @@ class Solution:
             right: TreeNode{val: 20, left: TreeNode{val: 15, left: None, right: None}, 
             right: TreeNode{val: 7, left: None, right: None}}} """
         if root != None:                 # Starts the following method with 0.
-            return self._height(root, 0) # The result with be a single int of the longest branch.
+            return self._height(root, 0) # 7. The result with be a single int of the longest branch.
         else:
             return 0 #Edge Case: Could be empty, so 0.
         
@@ -19,5 +19,5 @@ class Solution:
             return cur_height
         left_height = self._height(cur.left, cur_height + 1) # 1. Passes in remaining tree from left node
         right_height = self._height(cur.right, cur_height + 1) # 4. Runs aswell, all branches will be travelled
-        return max(left_height, right_height) # Will return current longest, when moving up itll report the enxt longest etc
-        # Works all the way back upto the first left & right nodes with longest branch only
+        return max(left_height, right_height) # 5. Will return current longest, when moving up itll report the enxt longest etc
+        # 6. Works all the way back upto the first left & right nodes with longest branch only
