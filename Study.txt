@@ -1,7 +1,7 @@
 Reverse String - 100%
 Maximum Depth of Binary Tree - 50%
-Delete Node in Linked List
-Single Number
+Delete Node in Linked List - 20%
+Single Number - 100%
 Reverse Linked List
 Fizz Buzz
 Majority elment
