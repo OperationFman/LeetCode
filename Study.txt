@@ -2,7 +2,7 @@ Reverse String - 100%
 Maximum Depth of Binary Tree - 50%
 Delete Node in Linked List - 20%
 Single Number - 100%
-Reverse Linked List
+Reverse Linked List - 75%
 Fizz Buzz
 Majority elment
 Valid Anagram
