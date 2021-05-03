@@ -9,7 +9,7 @@ class Solution:
         """ TreeNode{val: 3, left: TreeNode{val: 9, left: None, right: None}, 
             right: TreeNode{val: 20, left: TreeNode{val: 15, left: None, right: None}, 
             right: TreeNode{val: 7, left: None, right: None}}} """
-        if root != None:
+        if root != None: 
             return self._height(root, 0)
         else:
             return 0
