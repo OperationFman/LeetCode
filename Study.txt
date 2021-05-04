@@ -4,7 +4,7 @@ Delete Node in Linked List - 20%
 Single Number - 100%
 Reverse Linked List - 75%
 Fizz Buzz - 100%
-Majority element
+Majority element - 100%
 Valid Anagram
 Move Zeroes
 Roman to Integer
