@@ -6,7 +6,7 @@ Reverse Linked List - 75%
 Fizz Buzz - 100%
 Majority element - 100%
 Valid Anagram - 95%
-Move Zeroes
+Move Zeroes - 100%
 Roman to Integer
 Countains Duplicate
 Merge two Sorted Lists
