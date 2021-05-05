@@ -1,5 +1,5 @@
 class Solution:
-    def moveZeroes(self, nums: List[int]) -> None:
+    def moveZeroes(self, nums):
         """ [0,1,0,3,12] """
         zeros = [] # Place to hold all the zeros
         for i, v in enumerate(nums): # Need index and value
