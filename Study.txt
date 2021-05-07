@@ -11,7 +11,7 @@ Roman to Integer - 100%
 Countains Duplicate - 100%
 Merge two Sorted Lists - 75%
 Missing Number - 100%
-First Unqiue Character
+First Unqiue Character - 100%
 Intersection of Two Arrays
 Remove Duplicates from Sorted Arrays
 Two Sum
