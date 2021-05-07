@@ -8,7 +8,7 @@ Majority element - 100%
 Valid Anagram - 95%
 Move Zeroes - 100%
 Roman to Integer
-Countains Duplicate
+Countains Duplicate - 100%
 Merge two Sorted Lists
 Missing Number
 First Unqiue Character
