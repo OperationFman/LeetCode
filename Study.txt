@@ -10,7 +10,7 @@ Move Zeroes - 100%
 Roman to Integer - 100%
 Countains Duplicate - 100%
 Merge two Sorted Lists - 75%
-Missing Number
+Missing Number - 100%
 First Unqiue Character
 Intersection of Two Arrays
 Remove Duplicates from Sorted Arrays
