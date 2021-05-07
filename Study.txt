@@ -9,7 +9,7 @@ Valid Anagram - 95%
 Move Zeroes - 100%
 Roman to Integer - 100%
 Countains Duplicate - 100%
-Merge two Sorted Lists
+Merge two Sorted Lists - 75%
 Missing Number
 First Unqiue Character
 Intersection of Two Arrays
