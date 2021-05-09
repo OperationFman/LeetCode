@@ -12,7 +12,7 @@ Countains Duplicate - 100%
 Merge two Sorted Lists - 75%
 Missing Number - 100%
 First Unqiue Character - 100%
-Intersection of Two Arrays
+Intersection of Two Arrays - 25% 
 Remove Duplicates from Sorted Arrays
 Two Sum
 Valid Parenthesis
