@@ -27,6 +27,16 @@ print(cal2)
 
 # Combine calenders into one ordered list from starts. If starts are the same then default to the greater end time
 # [[9:00, 10:30], [10:00, 11:30], [12:00, 13:00], [12:30, 14:30], [14:30, 15:00], [16:00, 18:00], [16:00, 17:00]]
+merged = []
+P1 = 0
+P2 = 0
+# cal    [0]      [0]         [0]
+# cal [block][hours, mins][hour only]
+for i in range(len(cal1) + len(cal2)):
+    pass
+
+
+
 
 # Iterate through, if the end of a time is less than the start of another, check if it's big enough for a free block (Larger than 30 minutes)
     # if it isn't then append the end time of the next to the current end and check again
