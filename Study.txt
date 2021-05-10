@@ -18,7 +18,7 @@ Two Sum - 100%
 Valid Parenthesis - 100%
 Reverse Integer - 75%
 Binary Tree Traversal - 100%
-Rotate Image
+Rotate Image - 100%
 Game of Life
 Making Anagrams
 Alternating Characters
