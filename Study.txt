@@ -17,7 +17,7 @@ Remove Duplicates from Sorted Arrays - 100%
 Two Sum - 100%
 Valid Parenthesis - 100%
 Reverse Integer - 75%
-Binary Tree Traversal
+Binary Tree Traversal - 100%
 Rotate Image
 Game of Life
 Making Anagrams
