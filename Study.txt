@@ -14,7 +14,7 @@ Missing Number - 100%
 First Unqiue Character - 100%
 Intersection of Two Arrays - 30% 
 Remove Duplicates from Sorted Arrays - 100%
-Two Sum
+Two Sum - 100%
 Valid Parenthesis
 Reverse Integer
 Binary Tree Traversal
