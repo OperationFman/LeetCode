@@ -18,8 +18,6 @@ Two Sum - 100%
 Valid Parenthesis - 100%
 Reverse Integer - 75%
 Binary Tree Traversal - 100%
-Rotate Image - 100%
-Game of Life
 Making Anagrams
 Alternating Characters
 Hash Tables: Ransom Note
@@ -35,9 +33,9 @@ Max Array Sum
 
 Find one for doubly linked lists
 
-1 > 22 = LeetCode
-23 > 35 = Hackerrank
-% == levekl of understanding.
+1 > 20 = LeetCode
+21 > 32 = Hackerrank
+% == level of understanding.
     - 100% No problem at all
     - 50% understood but needed reference
     - 0% No idea why or how it works
