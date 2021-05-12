@@ -18,7 +18,7 @@ Two Sum - 100%
 Valid Parenthesis - 100%
 Reverse Integer - 75%
 Binary Tree Traversal - 100%
-Making Anagrams
+Making Anagrams - 100%
 Alternating Characters
 Hash Tables: Ransom Note
 Two Strings
