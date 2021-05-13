@@ -20,7 +20,7 @@ Reverse Integer - 75%
 Binary Tree Traversal - 100%
 Making Anagrams - 100%
 Alternating Characters - 100%
-Hash Tables: Ransom Note
+Hash Tables: Ransom Note - 100%
 Two Strings
 Bubble Sorted
 Mark and Toys
