@@ -22,7 +22,7 @@ Making Anagrams - 100%
 Alternating Characters - 100%
 Hash Tables: Ransom Note - 100%
 Two Strings - 100%
-Bubble Sorted
+Bubble Sorted - 100%
 Mark and Toys
 Array Left Rotation
 Minimum Swaps
