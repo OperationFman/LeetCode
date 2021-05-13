@@ -19,7 +19,7 @@ Valid Parenthesis - 100%
 Reverse Integer - 75%
 Binary Tree Traversal - 100%
 Making Anagrams - 100%
-Alternating Characters
+Alternating Characters - 100%
 Hash Tables: Ransom Note
 Two Strings
 Bubble Sorted
