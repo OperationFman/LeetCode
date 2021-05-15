@@ -18,7 +18,7 @@ Two Sum - 100%
 Valid Parenthesis - 100%
 Reverse Integer - 75%
 Binary Tree Traversal - 100%
-Making Anagrams - 100%
+Making Anagrams - 0%
 Alternating Characters - 100%
 Ransom Note - 100%
 Two Strings - 100%
