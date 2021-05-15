@@ -23,7 +23,7 @@ Alternating Characters - 100%
 Hash Tables: Ransom Note - 100%
 Two Strings - 100%
 Bubble Sorted - 100%
-Mark and Toys
+Mark and Toys - 100%
 Array Left Rotation
 Minimum Swaps
 Flipping Bits
