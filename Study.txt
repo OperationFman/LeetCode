@@ -25,7 +25,7 @@ Two Strings - 100%
 Bubble Sorted - 100%
 Mark and Toys - 100%
 Array Left Rotation
-Minimum Swaps
+Minimum Swaps - 100%
 Flipping Bits
 Lucky Balance
 Minimum Absolute Difference
