@@ -24,7 +24,7 @@ Ransom Note - 100%
 Two Strings - 100%
 Bubble Sorted - 100%
 Mark and Toys - 100%
-Array Left Rotation
+Array Left Rotation - !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Minimum Swaps - 100%
 Flipping Bits
 Lucky Balance
