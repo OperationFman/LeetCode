@@ -26,7 +26,6 @@ Bubble Sorted - 100%
 Mark and Toys - 100%
 Array Left Rotation - 100%
 Minimum Swaps - 100%
-Flipping Bits
 Lucky Balance
 Minimum Absolute Difference
 Max Array Sum
@@ -34,7 +33,7 @@ Max Array Sum
 Find one for doubly linked lists
 
 1 > 20 = LeetCode
-21 > 32 = Hackerrank
+21 > 31 = Hackerrank
 % == level of understanding.
     - 100% No problem at all
     - 50% understood but needed reference
