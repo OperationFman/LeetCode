@@ -26,7 +26,7 @@ Bubble Sorted - 100%
 Mark and Toys - 100%
 Array Left Rotation - 100%
 Minimum Swaps - 100%
-Lucky Balance
+Luck Balance
 Minimum Absolute Difference
 Max Array Sum
 
