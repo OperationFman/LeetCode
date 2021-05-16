@@ -1,8 +1,18 @@
-from collection import Counter
-
-def makeAnagram(a, b):
-    """ [a, b, c] & [c, b, a] """
-    count_a = Counter(a) # Getting counts for each element
-    count_b = Counter(b)
-    count_a.subtract(count_b) # Somehow this will add any new counts and also place any from b not in a as negative???
-    return sum(abs(i) for i in count_a.values()) # Makes everything positive and the total values, idk
+def makingAnagrams(s1, s2):
+    """ [a, b, c, d, e, f, g] & [ a, b, c] """
+    big = max(list(s1), list(s2)) # We want to know the smallest since we'll be popping things from the lists
+    small = min(list(s1), list(s2)) # Once the smallest is empty we knoe there's no more unique items to be 'anagramed'
+    counter = 0 # Keep track of every delete
+    
+    while small != []: # When we iterating we delete elems. That shuffles them down one and makes them missed. 
+        # So here we repeat until small is empty because every value will be popped becaused it matched or because it doesn't
+        for i, v in enumerate(small): 
+            if v in big: # if it's in the other array its an anagram so we delete both and move on
+                small.pop(i)
+                big.pop(big.index(v))
+            else:
+                small.pop(i) # if it's only in small then it's unique and counts toward our 'deletes'
+                counter += 1
+    
+    counter += len(big) # Once small is empty, only uniques remain in big so every single one counts as deleted
+    return counter
