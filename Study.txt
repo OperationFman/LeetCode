@@ -28,8 +28,8 @@ Array Left Rotation - 100%
 Minimum Swaps - 100%
 Algo-Expert-Validate-Subsequence - 100%
 Minimum Absolute Difference
-Max Array Sum
-
+Max Array Sum 
+algo expoett medium
 
 
 Find one for doubly linked lists
