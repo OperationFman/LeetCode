@@ -23,5 +23,6 @@ class Solution:
 
 sol = Solution()
 
+
 print(sol.isValid('<()>'))
 print(sol.isValid('(])'))
