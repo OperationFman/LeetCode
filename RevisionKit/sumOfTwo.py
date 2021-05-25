@@ -1,11 +1,9 @@
+# You have two integer arrays, a and b, and an integer target value v. 
+# Determine whether there is a pair of numbers, where one number is taken 
+# from a and the other from b, that can be added together to get a sum of v. 
+# Return true if such a pair exists, otherwise return false.
+
 def sumOfTwo(a, b, v):
-    complements = set() # make an empty unqiue set, this makes lookups instant (Rather than 'find x in list', which is O(n))
-    
-    for i in a:
-        complements.add(v - i) # taking a from v will show us a value that b must have in order to being a sumoftwo. Dups obviously won't be added
-    
-    for i in b:
-        if i in complements: # For in set() is actually O(1), instant lookup
-            return True
-    
-    return False
+    pass
+    # Clue: Remove the value of v from each in a and add them to a set. Each result would be waht a value in b MUST equal if it exists
+    # Remember, hashtables (sets) are O(1) lookup and write, so when you search each in b if it's in that set, it's instant
