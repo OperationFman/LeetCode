@@ -8,3 +8,12 @@ def firstDuplicate(a):
     pass
     # Clue: Reading/writing to a hastable (Set) is O(n)
     # Iterate over the array, if it's in the set (Checking is O(1)) then you found the dup, if not, add it to thr set
+    setty = set()
+    
+    for i in a:
+        if i not in setty:
+            setty.add(i)
+        else:
+            return i
+
+print(firstDuplicate([1,2,3,4,5,6,7,8,9,9]))
