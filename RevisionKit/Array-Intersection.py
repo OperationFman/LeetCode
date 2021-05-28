@@ -10,10 +10,16 @@ class Solution:
         # Clue: Use counter and decrement as you iterate. Thus O(n)
         count1 = Counter(nums1)
         count2 = Counter(nums2)
+        matches = set(nums1) & set(nums2)
+        result = []
         
-        for i in count1:
-            if count1[i] > 0 and i in count2:
-                pass
+        for i in matches:
+            if count1[i] > 0:
+                count1[i] = count1[i] - 1
+                result.append(i)
+
+        print(result)
 
 
-Solution.intersect([1,2,2,3], [1,3,4])
+
+Solution.intersect([1,2,2,2,2,2,2,2,2,3,4], [1,2,2,3,4])
