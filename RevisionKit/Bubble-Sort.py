@@ -9,3 +9,6 @@
 def countSwaps(a):
   """ [2, 1, 3] """
     # Clue: Follow the traditional method of bubble sort and run a counter for each swap. ensure O(n)
+  sorty = a.sort()
+  while a != sorty:
+    
