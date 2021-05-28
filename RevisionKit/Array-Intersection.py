@@ -8,18 +8,16 @@ class Solution:
     def intersect(nums1, nums2):
         """ nums1 = [1,2,2,1], nums2 = [2,2] """
         # Clue: Use counter and decrement as you iterate. Thus O(n)
-        count1 = Counter(nums1)
-        count2 = Counter(nums2)
-        matches = set(nums1) & set(nums2)
+        count = Counter(nums1) # O(n)
         result = []
-        
-        for i in matches:
-            if count1[i] > 0:
-                count1[i] = count1[i] - 1
+
+        for i in nums2: # O(n)
+            if count[i] > 0: # if the counts greater than zero it means there's an intersection
                 result.append(i)
+                count[i] -= 1
 
-        print(result)
+        return result
 
 
 
-Solution.intersect([1,2,2,2,2,2,2,2,2,3,4], [1,2,2,3,4])
+Solution.intersect([1,2,3,4,5,6], [1,1,1,1,1,1,1,1,1])
