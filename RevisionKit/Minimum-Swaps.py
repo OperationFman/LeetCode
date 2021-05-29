@@ -8,16 +8,15 @@ def minimumSwaps(arr):
     res = 0
     arr = [x-1 for x in arr] # Reduces everything by 1 for some reason
     value_idx = {x:i for i, x in enumerate(arr)}
-    print(value_idx)
-    # for i, x in enumerate(arr):
-    #     if i != x:
-    #         to_swap_idx = value_idx[i]
-    #         arr[i], arr[to_swap_idx] = i, x
-    #         value_idx[i] = i
-    #         value_idx[x] = to_swap_idx
-    #         res += 1
-    # print(res)
-    # return res
+    for i, x in enumerate(arr):
+        if i != x:
+            to_swap_idx = value_idx[i]
+            arr[i], arr[to_swap_idx] = i, x
+            value_idx[i] = i
+            value_idx[x] = to_swap_idx
+            res += 1
+    print(res)
+    return res
 
 minimumSwaps([2,3,4,5,1])
     

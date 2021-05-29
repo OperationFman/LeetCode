@@ -4,4 +4,4 @@
 class Solution:
     def missingNumber(self, nums):
         pass
-        # They're all unque. Try an do it in O(n), originally you had it O(n^2)
+        # They're all unique. Try an do it in O(n), originally you had it O(n^2)
