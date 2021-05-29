@@ -1,0 +1,8 @@
+def shapeArea(n):
+    if n == 1:
+        return 1
+    else:
+        a = 1
+        for i in range(1, n + 1):
+            a = a + i * 4 - 4
+        return a
