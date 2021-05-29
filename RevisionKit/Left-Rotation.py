@@ -4,12 +4,11 @@
 # [3, 4, 5, 1, 2]
 # [4, 5, 1, 2, 3]
 
-def rotateLeft(arr):
-    # Clue Use a for loop with no value, eg for _ in range(x). Just for practice
-    zip(*arr)
-    print(arr)
+def rotLeft(a, d):
+    for _ in range(d):
+        a.append(a[0]) # Put first element on the back
+        a.pop(0) # Delete first element
+        
+    return a
 
-rotateLeft([[1, 2, 3, 4, 5],
-            [2, 3, 4, 5, 1], 
-            [3, 4, 5, 1, 2], 
-            [4, 5, 1, 2, 3]])
+rotLeft([1, 2, 3, 4, 5], 4) # Rotate array 4 times
