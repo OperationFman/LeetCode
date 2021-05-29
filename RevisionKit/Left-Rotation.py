@@ -10,10 +10,11 @@ def rotLeft(a, d):
         a.pop(0) # Delete first element
     return a
 
-rotLeft([1, 2, 3, 4, 5], 4) # Rotate array 4 times
-
 def rotRight(a, d):
     for _ in range(d):
         a.insert(0,a[-1])
         a.pop(-1)
     return a
+
+print(rotLeft([1, 2, 3, 4, 5], 4)) # Rotate array left 4 times
+print(rotRight([1, 2, 3, 4, 5], 4)) # Rotate array 4 times
