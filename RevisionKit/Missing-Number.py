@@ -3,5 +3,12 @@
 
 class Solution:
     def missingNumber(self, nums):
-        pass
         # They're all unique. Try an do it in O(n), originally you had it O(n^2)
+        count = 0
+        sorty = sorted(nums)
+        for i in sorty:
+            if i != count:
+                return count
+            else:
+                count += 1
+        return count
