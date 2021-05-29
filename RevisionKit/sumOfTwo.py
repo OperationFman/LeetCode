@@ -4,7 +4,6 @@
 # Return true if such a pair exists, otherwise return false.
 
 def sumOfTwo(a, b, v):
-    pass
     # for each in a, v - a = x (add to set)
     # for each in b if each in set return true
     checker = set()
