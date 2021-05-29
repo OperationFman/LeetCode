@@ -3,22 +3,21 @@
 # Find the minimum number of swaps required to sort the array in ascending order.
 
 def minimumSwaps(arr):
-    pass
     # Clue: While loop until a sorted array matches what you're about to do
     # Go through with range(arr) -1 and do a bubble sort-style swap and incrmeent a counter
-    count = 0
-    sorty = sorted(arr)
-    print(sorty)
-
-    while arr != sorty:
-        for i in range(len(arr) - 1):
-            if arr[i] > arr[i + 1]:
-                store = arr[i + 1]
-                arr[i + 1] = arr[i]
-                arr[i] = store
-                count += 1
-
-    print(count)
+    res = 0
+    arr = [x-1 for x in arr] # Reduces everything by 1 for some reason
+    value_idx = {x:i for i, x in enumerate(arr)}
+    print(value_idx)
+    # for i, x in enumerate(arr):
+    #     if i != x:
+    #         to_swap_idx = value_idx[i]
+    #         arr[i], arr[to_swap_idx] = i, x
+    #         value_idx[i] = i
+    #         value_idx[x] = to_swap_idx
+    #         res += 1
+    # print(res)
+    # return res
 
 minimumSwaps([2,3,4,5,1])
     
