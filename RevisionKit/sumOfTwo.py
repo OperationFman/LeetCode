@@ -5,5 +5,16 @@
 
 def sumOfTwo(a, b, v):
     pass
-    # Clue: Remove the value of v from each in a and add them to a set. Each result would be waht a value in b MUST equal if it exists
-    # Remember, hashtables (sets) are O(1) lookup and write, so when you search each in b if it's in that set, it's instant
+    # for each in a, v - a = x (add to set)
+    # for each in b if each in set return true
+    checker = set()
+    for i in a:
+        checker.add(v - i)
+    
+    for j in b:
+        if j in checker:
+            return True
+
+    return False
+
+print(sumOfTwo([1,2,3], [10, 20, 30], 42))
