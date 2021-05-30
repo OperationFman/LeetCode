@@ -10,3 +10,4 @@ def allLongestStrings(inputArray):
             longs.append(i)
             
     return longs
+    
