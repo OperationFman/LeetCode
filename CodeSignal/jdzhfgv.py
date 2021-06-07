@@ -5,5 +5,4 @@ def do(a, b):
         return a + do(a,b-1)
     else:
         return 0
-
 print(do(3,4))
